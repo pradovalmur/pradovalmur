@@ -58,8 +58,7 @@ Analytical environment built with Trino, Iceberg, and MinIO.
 ---
 
 ## 📊 GitHub Stats
-![Valmur's GitHub stats](https://github-readme-stats.vercel.app/api?username=pradovalmur&show_icons=true&theme=transparent&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pradovalmur&layout=compact&theme=transparent&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=pradovalmur)
 
 ---
 
