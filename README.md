@@ -51,32 +51,6 @@ Real-time satellite tracking platform deployed on Kubernetes, consuming orbital 
 - Lakehouse architecture using open-source tools  
 - Cloud-native deployment with ingress and TLS  
 
----
-
-### 🔹 Data Pipeline (SFCC → ADLS → Snowflake)
-
-End-to-end pipeline for ingesting data from Salesforce Commerce Cloud APIs with incremental window control.
-
-**Stack:** Azure Data Factory • ADLS • Snowflake  
-**Highlights:**
-- Incremental ingestion with state control  
-- Resilient and reprocessable design  
-- Structured raw → curated data layers  
-
----
-
-### 🔹 Redshift UNLOAD Orchestration (MWAA)
-
-Centralized orchestration of Redshift exports to S3 using Airflow.
-
-**Stack:** AWS MWAA • Redshift • S3  
-**Highlights:**
-- Parallel execution and grouped workloads  
-- Replacement of distributed Lambda jobs  
-- Improved observability and control  
-
----
-
 ## 🧠 What I Work On
 
 - Building data platforms (lakehouse / warehouse)  
