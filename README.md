@@ -1,68 +1,91 @@
 # Valmur Prado
 
-Data Engineer | AWS | Azure | Data Platforms
+**Data Engineer** | AWS • Azure • Data Platforms
 
 ---
 
 ## 👨‍💻 About me
 
-Data Engineer focused on building scalable data pipelines and data platforms.
+Data Engineer focused on designing and building scalable data platforms and pipelines.
 
-Hands-on experience across ingestion, transformation, and orchestration in cloud environments (AWS and Azure), working from raw data layers to data warehouse.
+Hands-on experience across ingestion, transformation, and orchestration in cloud environments (AWS and Azure), covering the full lifecycle from raw data ingestion to analytics-ready datasets.
 
-Main areas of work:
-- Orchestration (Airflow / MWAA / Dagster)
-- Data Warehousing (Redshift, Snowflake)
-- Data Lake (S3, ADLS, Iceberg)
-- Infrastructure as Code (Terraform)
+Strong focus on:
+- Data platform architecture  
+- Pipeline reliability and reprocessing  
+- Cloud-native solutions  
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Cloud:** AWS, Azure  
-- **Data:** Redshift, Snowflake, Trino, Iceberg  
-- **Orchestration:** Airflow, Dagster  
-- **Languages:** Python, SQL  
-- **Infra:** Terraform, Kubernetes  
+**Cloud**  
+AWS • Azure  
+
+**Data**  
+Redshift • Snowflake • Trino • Iceberg  
+
+**Orchestration**  
+Airflow • MWAA • Dagster  
+
+**Languages**  
+Python • SQL  
+
+**Infrastructure**  
+Terraform • Kubernetes  
 
 ---
 
 ## 📂 Featured Projects
 
-### 🔹 Data Pipeline (SFCC → ADLS → Snowflake)
-End-to-end pipeline for ingesting data from APIs (Salesforce Commerce Cloud), with incremental window control and storage in a data lake.
+### 🔹 Satellite Tracking Platform (NORAD)
 
-- Stack: Azure Data Factory, ADLS, Snowflake  
-- Highlight: incremental ingestion with state control  
-- Outcome: resilient and reprocessable pipeline  
+Real-time satellite tracking platform deployed on Kubernetes, consuming orbital data and exposing analytics via web interface.
+
+- 🌐 App: https://satellites.chameleonmountain.com/  
+- 💻 Repo: https://github.com/pradovalmur/k8s-dataplataform-infra  
+
+**Stack:** Kubernetes • Trino • Iceberg • MinIO • Python  
+**Highlights:**
+- End-to-end data pipeline (ingestion → storage → query → visualization)  
+- Lakehouse architecture using open-source tools  
+- Cloud-native deployment with ingress and TLS  
+
+---
+
+### 🔹 Data Pipeline (SFCC → ADLS → Snowflake)
+
+End-to-end pipeline for ingesting data from Salesforce Commerce Cloud APIs with incremental window control.
+
+**Stack:** Azure Data Factory • ADLS • Snowflake  
+**Highlights:**
+- Incremental ingestion with state control  
+- Resilient and reprocessable design  
+- Structured raw → curated data layers  
 
 ---
 
 ### 🔹 Redshift UNLOAD Orchestration (MWAA)
-Orchestration of Redshift data exports to S3 using Airflow.
 
-- Stack: AWS MWAA, Redshift, S3  
-- Highlight: parallel execution and grouped processing  
-- Outcome: replaced Lambda-based jobs with centralized orchestration  
+Centralized orchestration of Redshift exports to S3 using Airflow.
 
----
-
-### 🔹 Trino + Iceberg Data Platform (Kubernetes)
-Analytical environment built with Trino, Iceberg, and MinIO.
-
-- Stack: Kubernetes, Trino, Iceberg, MinIO  
-- Highlight: open-source lakehouse architecture  
-- Outcome: flexible and decoupled analytics platform  
+**Stack:** AWS MWAA • Redshift • S3  
+**Highlights:**
+- Parallel execution and grouped workloads  
+- Replacement of distributed Lambda jobs  
+- Improved observability and control  
 
 ---
 
-## 📊 GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=pradovalmur)
+## 🧠 What I Work On
+
+- Building data platforms (lakehouse / warehouse)  
+- Designing reliable data pipelines  
+- Orchestrating data workflows at scale  
+- Infrastructure as code for data environments  
 
 ---
 
 ## 📫 Contact
 
-- LinkedIn: https://www.linkedin.com/in/valmur-prado-39b81522/
-- Email: pradovalmur@gmail.com
+- LinkedIn: linkedin.com/in/valmur-prado-39b81522
